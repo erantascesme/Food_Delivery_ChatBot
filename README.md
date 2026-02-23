@@ -39,4 +39,4 @@ Here is a look at the Chatbot interface in action:
 * **Eran Tascesme**, Tel Aviv University, https://www.linkedin.com/in/erantascesme/
 
 
-*Developed for academic research in Human-AI Interaction and Behavioral Economics.*
+*Developed for academic research in Human-AI Interaction.*
