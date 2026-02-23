@@ -1,7 +1,3 @@
-Here is a short, professional `README.md` tailored for your GitHub repository. It focuses purely on describing the project and its components without including setup or usage instructions.
-
----
-
 # Conversational AI Recommender System & Trust Analysis
 
 This repository contains the software and analytical tools developed for a research study exploring human-AI interaction, specifically focusing on user trust, explainability, and decision-making in Conversational Recommender Systems (CRS).
