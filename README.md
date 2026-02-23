@@ -33,8 +33,8 @@ Here is a look at the Chatbot interface in action:
 ---
 
 ## Creators
-* **Hadar Engel**, Tel Aviv University, https://www.linkedin.com/in/erantascesme/
-* **Eran Tascesme**, Tel Aviv University, https://www.linkedin.com/in/hadar-engel/
+* **Hadar Engel**, Tel Aviv University, https://www.linkedin.com/in/hadar-engel/
+* **Eran Tascesme**, Tel Aviv University, https://www.linkedin.com/in/erantascesme/
 
 
 *Developed for academic research in Human-AI Interaction and Behavioral Economics.*
