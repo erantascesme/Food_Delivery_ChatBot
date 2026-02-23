@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --primary: #FF5722;
+    --secondary: #FFC107;
+    --dark: #2D3436;
+    --red: #D32F2F;
+    --light: #F5F6FA;
+    --white: #FFFFFF;
+    --shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+
+/* GLOBAL BACKGROUND */
+body, .login-body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Prevents whole-page scrolling */
+    gap: 30px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #333;
+}
+
+/* SIDEBAR */
+#sidebar {
+    width: 320px;
+    min-width: 250px;
+    max-width: 50vw;
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--dark);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+    z-index: 2;
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* RESIZER HANDLE */
+#resizer {
+    width: 5px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: col-resize;
+    z-index: 10;
+    transition: 0.2s;
+}
+#resizer:hover { background: rgba(0,0,0,0.1); }
+
+#sidebar h2 {
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-box {
+    background: #FFF3E0;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    color: #5D4037;
+    border-left: 4px solid var(--primary);
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+/* EXIT BUTTON */
+#exit-btn {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background: var(--red);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(211, 47, 47, 0.4);
+    z-index: 100;
+    width: auto;
+}
+#exit-btn:hover { background: #b71c1c; transform: translateY(-2px); }
+
+/* MAIN CHAT AREA */
+#main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#chat-container {
+    flex: 1;
+    overflow-y: auto; /* Allow scrolling inside chat */
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 0; /* Critical for flex scrolling */
+    min-height: 0;
+}
+
+.message { max-width: 80%; padding: 15px 25px; margin: 10px 0; border-radius: 18px; line-height: 1.6; font-size: 1.05rem; position: relative; }
+.user-msg { align-self: flex-end; background: var(--primary); color: white; border-bottom-right-radius: 4px; box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3); }
+.bot-msg { align-self: flex-start; background: var(--light); color: var(--dark); border-bottom-left-radius: 4px; border: 1px solid #eee; }
+
+/* SPINNER */
+.loading-spinner { align-self: flex-start; margin: 10px 0; display: none; }
+.spinner { width: 40px; height: 40px; border: 4px solid #f3f3f3; border-top: 4px solid var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* CARDS */
+.cards-container { display: flex; gap: 15px; margin-top: 15px; flex-wrap: wrap; }
+.card { background: white; border-radius: 15px; padding: 15px; width: 220px; cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: 0.3s; border: 1px solid #eee; position: relative; overflow: hidden; }
+.card:hover { transform: translateY(-5px); border-color: var(--primary); }
+.card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: var(--secondary); }
+.card h4 { color: var(--dark); font-size: 1.1rem; margin-bottom: 5px; font-weight: 600; }
+.card .meta { display: flex; justify-content: space-between; color: #777; font-size: 0.9rem; }
+.card .eta { color: var(--primary); font-weight: bold; font-size: 0.8rem; margin-top: 10px; display: block; }
+
+/* INPUT AREA */
+#input-area { display: flex; gap: 15px; align-items: flex-end; flex-shrink: 0; }
+
+textarea {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.05rem;
+    box-shadow: var(--shadow);
+    outline: none;
+    transition: 0.3s;
+    background: white;
+    resize: none;
+    height: 70px;
+    font-family: inherit;
+}
+textarea:focus { transform: scale(1.01); }
+textarea:disabled { background: #e0e0e0; cursor: not-allowed; }
+
+button {
+    padding: 0 35px;
+    height: 70px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);
+    font-size: 1.1rem;
+}
+button:hover { background: #E64A19; transform: translateY(-2px); }
+button:disabled { background: #ccc; cursor: not-allowed; transform: none; box-shadow: none; }
+
+/* DETAILS & EDIT MODALS */
+#details-overlay, #edit-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5); backdrop-filter: blur(8px);
+    display: none; justify-content: center; align-items: center;
+    z-index: 1000;
+}
+#details-box { background: white; width: 500px; padding: 40px; border-radius: 20px; box-shadow: 0 25px 50px rgba(0,0,0,0.25); position: relative; }
+.order-btn { width: 100%; padding: 15px; margin-top: 20px; background: var(--secondary); color: var(--dark); border-radius: 12px; font-weight: bold; font-size: 1.1rem; cursor: pointer; border: none; }
+
+.edit-group { margin-bottom: 15px; }
+.edit-group label { display: block; font-weight: 600; margin-bottom: 5px; color: #444; }
+.edit-group input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+
+/* RATING MODAL & STARS */
+#rating-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7); backdrop-filter: blur(5px);
+    display: none; justify-content: center; align-items: center;
+    z-index: 2000;
+}
+#rating-box { background: white; padding: 40px; border-radius: 20px; text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.3); border: 1px solid #FF5722; }
+
+.star-container { display: flex; justify-content: center; gap: 10px; }
+.star { font-size: 3rem; color: #ddd; cursor: pointer; transition: 0.2s; user-select: none; }
+.star.hovered { color: #FFC107; }
+
+/* LOGIN / SIGNUP */
+.login-body { display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+.login-card { background: rgba(255, 255, 255, 0.95); padding: 60px 50px; width: 100%; max-width: 460px; border-radius: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); text-align: center; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.5); }
+.login-header .logo-icon { font-size: 5rem; margin-bottom: 10px; display: inline-block; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1)); }
+.login-header h1 { color: var(--primary); font-size: 2.4rem; font-weight: 800; margin-bottom: 5px; }
+.login-header p { color: #666; margin-bottom: 30px; font-size: 1.1rem; }
+
+.input-group label { display: block; text-align: left; color: var(--dark); font-weight: 600; margin-bottom: 2px; margin-left: 10px; font-size: 1rem; }
+.input-group input { width: 100%; padding: 18px 20px; border: 2px solid #eee; border-radius: 50px; font-size: 1.1rem; transition: 0.3s; background: #f9f9f9; }
+.input-group input:focus { border-color: var(--primary); background: #fff; outline: none; }
+.login-btn { width: 100%; padding: 20px; background: linear-gradient(135deg, var(--primary) 0%, #E64A19 100%); color: white; border: none; border-radius: 50px; font-size: 1.2rem; font-weight: 700; cursor: pointer; transition: 0.3s; margin-top: 15px; }
+.login-btn:hover { transform: translateY(-3px); }
+.login-footer { margin-top: 50px; font-size: 1.1rem; color: #555; }
+
+
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 768px) {
+    /* 1. Layout Fixes */
+    body {
+        flex-direction: column;
+        height: 100vh; /* Fixed height for app feel */
+        gap: 0; /* Remove gap */
+    }
+
+    /* 2. Compact Header (Sidebar) */
+    #sidebar {
+        width: 100%;
+        min-width: 100%;
+        height: 60px; /* FIXED HEIGHT */
+        min-height: 60px;
+        padding: 0 15px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        z-index: 100;
+    }
+
+    /* Hide large boxes */
+    #sidebar h2, #sidebar .info-box, #resizer, #sidebar p {
+        display: none !important;
+    }
+
+    /* Logo & Name Area */
+    #sidebar div:first-child {
+        margin-bottom: 0 !important;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #sidebar h1 {
+        font-size: 1.2rem !important;
+        margin: 0;
+    }
+
+    /* Exit Button in Header */
+    #exit-btn {
+        position: static;
+        padding: 5px 12px;
+        font-size: 0.8rem;
+        height: auto;
+    }
+
+    /* 3. Main Chat Area */
+    #main-content {
+        padding: 10px;
+        width: 100%;
+        /* Exact height calculation to ensure internal scrolling */
+        height: calc(100vh - 60px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    #chat-container {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 15px;
+        border-radius: 15px;
+        -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+    }
+
+    .message {
+        max-width: 90%;
+        font-size: 0.95rem;
+        padding: 10px 15px;
+    }
+
+    /* 4. Compact Input */
+    #input-area {
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    textarea {
+        height: 50px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    button {
+        height: 50px;
+        padding: 0 15px;
+        font-size: 1rem;
+    }
+
+    /* 5. Mobile Modals */
+    #details-box, #edit-overlay > div, #rating-box {
+        width: 90% !important;
+        max-width: 90% !important;
+        padding: 20px !important;
+    }
+
+    .card {
+        width: 100%; /* Cards take full width on mobile */
+    }
+}

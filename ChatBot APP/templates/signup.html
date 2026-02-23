@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - FoodBot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="login-body">
+
+    <div class="login-card" style="width: 450px;"> <div class="login-header">
+            <div class="logo-icon">📝</div>
+            <h1>Create Account</h1>
+            <p>Join to start ordering</p>
+        </div>
+
+        <form method="POST" action="/signup">
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone_number" placeholder="+1-555-0000" required>
+            </div>
+
+            <div style="display: flex; gap: 10px;">
+                <div class="input-group" style="flex: 2;">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="New York" required>
+                </div>
+                <div class="input-group" style="flex: 1;">
+                    <label for="house">House #</label>
+                    <input type="text" id="house" name="house_number" placeholder="10" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="street">Street</label>
+                <input type="text" id="street" name="street" placeholder="5th Avenue" required>
+            </div>
+
+            <button type="submit" class="login-btn">Sign Up & Chat</button>
+        </form>
+
+        <div class="login-footer">
+            Already have an ID? <a href="{{ url_for('login_page') }}" style="color: #FF5722; font-weight: bold; text-decoration: none;">Login here</a>
+        </div>
+    </div>
+
+</body>
+</html>

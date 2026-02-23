@@ -1,0 +1,752 @@
+[
+    {
+        "id": "R001",
+        "name": "Nori Spot 68",
+        "latitude": 40.756872,
+        "longitude": -73.987739,
+        "menu_dish_ids": [
+            "D001",
+            "D002",
+            "D003",
+            "D004",
+            "D005"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.4,
+        "food_types": [
+            "Japanese"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R002",
+        "name": "The Olive 96",
+        "latitude": 40.720273,
+        "longitude": -73.961736,
+        "menu_dish_ids": [
+            "D006",
+            "D007",
+            "D008",
+            "D009",
+            "D010"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.8,
+        "food_types": [
+            "Italian"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R003",
+        "name": "The Yard 76",
+        "latitude": 40.754068,
+        "longitude": -73.979386,
+        "menu_dish_ids": [
+            "D011",
+            "D012",
+            "D013",
+            "D014",
+            "D015"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.1,
+        "food_types": [
+            "American"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R004",
+        "name": "Burrito Bros 27",
+        "latitude": 40.749888,
+        "longitude": -73.961077,
+        "menu_dish_ids": [
+            "D016",
+            "D017",
+            "D018",
+            "D019",
+            "D020"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.8,
+        "food_types": [
+            "Mexican"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R005",
+        "name": "Green Earth 51",
+        "latitude": 40.754807,
+        "longitude": -73.992042,
+        "menu_dish_ids": [
+            "D021",
+            "D022",
+            "D023",
+            "D024",
+            "D025"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.6,
+        "food_types": [
+            "Healthy"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R006",
+        "name": "Kyoto Kitchen 75",
+        "latitude": 40.731859,
+        "longitude": -73.994338,
+        "menu_dish_ids": [
+            "D026",
+            "D027",
+            "D028",
+            "D029",
+            "D030"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 5.0,
+        "food_types": [
+            "Japanese"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R007",
+        "name": "Luigi's 79",
+        "latitude": 40.732849,
+        "longitude": -73.96718,
+        "menu_dish_ids": [
+            "D031",
+            "D032",
+            "D033",
+            "D034",
+            "D035"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.2,
+        "food_types": [
+            "Italian"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R008",
+        "name": "Burger Joint 45",
+        "latitude": 40.726433,
+        "longitude": -73.978328,
+        "menu_dish_ids": [
+            "D036",
+            "D037",
+            "D038",
+            "D039",
+            "D040"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.2,
+        "food_types": [
+            "American"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R009",
+        "name": "Aztec Grill 16",
+        "latitude": 40.732132,
+        "longitude": -73.996269,
+        "menu_dish_ids": [
+            "D041",
+            "D042",
+            "D043",
+            "D044",
+            "D045"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.2,
+        "food_types": [
+            "Mexican"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R010",
+        "name": "Pure Bowls 37",
+        "latitude": 40.720468,
+        "longitude": -73.96718,
+        "menu_dish_ids": [
+            "D046",
+            "D047",
+            "D048",
+            "D049",
+            "D050"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 3.8,
+        "food_types": [
+            "Healthy"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R011",
+        "name": "Tokyo Bites 93",
+        "latitude": 40.738054,
+        "longitude": -73.998217,
+        "menu_dish_ids": [
+            "D051",
+            "D052",
+            "D053",
+            "D054",
+            "D055"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 3.9,
+        "food_types": [
+            "Japanese"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R012",
+        "name": "The Olive 94",
+        "latitude": 40.720482,
+        "longitude": -73.984774,
+        "menu_dish_ids": [
+            "D056",
+            "D057",
+            "D058",
+            "D059",
+            "D060"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.6,
+        "food_types": [
+            "Italian"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R013",
+        "name": "Burger Joint 56",
+        "latitude": 40.753354,
+        "longitude": -73.988973,
+        "menu_dish_ids": [
+            "D061",
+            "D062",
+            "D063",
+            "D064",
+            "D065"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.0,
+        "food_types": [
+            "American"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R014",
+        "name": "Burrito Bros 61",
+        "latitude": 40.731469,
+        "longitude": -73.978197,
+        "menu_dish_ids": [
+            "D066",
+            "D067",
+            "D068",
+            "D069",
+            "D070"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.7,
+        "food_types": [
+            "Mexican"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R015",
+        "name": "Pure Bowls 92",
+        "latitude": 40.720662,
+        "longitude": -73.998773,
+        "menu_dish_ids": [
+            "D071",
+            "D072",
+            "D073",
+            "D074",
+            "D075"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 3.9,
+        "food_types": [
+            "Healthy"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R016",
+        "name": "Nori Spot 4",
+        "latitude": 40.722552,
+        "longitude": -73.985989,
+        "menu_dish_ids": [
+            "D076",
+            "D077",
+            "D078",
+            "D079",
+            "D080"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.4,
+        "food_types": [
+            "Japanese"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R017",
+        "name": "Roma Express 79",
+        "latitude": 40.727307,
+        "longitude": -73.990783,
+        "menu_dish_ids": [
+            "D081",
+            "D082",
+            "D083",
+            "D084",
+            "D085"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 3.9,
+        "food_types": [
+            "Italian"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R018",
+        "name": "Diner 24 74",
+        "latitude": 40.73054,
+        "longitude": -73.994447,
+        "menu_dish_ids": [
+            "D086",
+            "D087",
+            "D088",
+            "D089",
+            "D090"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 3.9,
+        "food_types": [
+            "American"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R019",
+        "name": "Aztec Grill 75",
+        "latitude": 40.750747,
+        "longitude": -73.985258,
+        "menu_dish_ids": [
+            "D091",
+            "D092",
+            "D093",
+            "D094",
+            "D095"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.4,
+        "food_types": [
+            "Mexican"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R020",
+        "name": "Nature's Way 32",
+        "latitude": 40.747942,
+        "longitude": -73.977515,
+        "menu_dish_ids": [
+            "D096",
+            "D097",
+            "D098",
+            "D099",
+            "D100"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.2,
+        "food_types": [
+            "Healthy"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R021",
+        "name": "Kyoto Kitchen 36",
+        "latitude": 40.723498,
+        "longitude": -73.98712,
+        "menu_dish_ids": [
+            "D101",
+            "D102",
+            "D103",
+            "D104",
+            "D105"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 3.8,
+        "food_types": [
+            "Japanese"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R022",
+        "name": "The Olive 77",
+        "latitude": 40.74969,
+        "longitude": -73.961049,
+        "menu_dish_ids": [
+            "D106",
+            "D107",
+            "D108",
+            "D109",
+            "D110"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.1,
+        "food_types": [
+            "Italian"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R023",
+        "name": "Diner 24 36",
+        "latitude": 40.735989,
+        "longitude": -73.99219,
+        "menu_dish_ids": [
+            "D111",
+            "D112",
+            "D113",
+            "D114",
+            "D115"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.4,
+        "food_types": [
+            "American"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R024",
+        "name": "El Camino 72",
+        "latitude": 40.73896,
+        "longitude": -73.997091,
+        "menu_dish_ids": [
+            "D116",
+            "D117",
+            "D118",
+            "D119",
+            "D120"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.3,
+        "food_types": [
+            "Mexican"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R025",
+        "name": "Salad Bar 85",
+        "latitude": 40.745544,
+        "longitude": -73.96443,
+        "menu_dish_ids": [
+            "D121",
+            "D122",
+            "D123",
+            "D124",
+            "D125"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.5,
+        "food_types": [
+            "Healthy"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R026",
+        "name": "Tokyo Bites 83",
+        "latitude": 40.74684,
+        "longitude": -73.981886,
+        "menu_dish_ids": [
+            "D126",
+            "D127",
+            "D128",
+            "D129",
+            "D130"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 3.9,
+        "food_types": [
+            "Japanese"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R027",
+        "name": "Mama Mia 1",
+        "latitude": 40.724242,
+        "longitude": -73.988531,
+        "menu_dish_ids": [
+            "D131",
+            "D132",
+            "D133",
+            "D134",
+            "D135"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.5,
+        "food_types": [
+            "Italian"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R028",
+        "name": "BBQ Pit 79",
+        "latitude": 40.751433,
+        "longitude": -73.9879,
+        "menu_dish_ids": [
+            "D136",
+            "D137",
+            "D138",
+            "D139",
+            "D140"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.9,
+        "food_types": [
+            "American"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R029",
+        "name": "El Camino 72",
+        "latitude": 40.751178,
+        "longitude": -73.978492,
+        "menu_dish_ids": [
+            "D141",
+            "D142",
+            "D143",
+            "D144",
+            "D145"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 5.0,
+        "food_types": [
+            "Mexican"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    },
+    {
+        "id": "R030",
+        "name": "Green Earth 64",
+        "latitude": 40.738121,
+        "longitude": -73.986584,
+        "menu_dish_ids": [
+            "D146",
+            "D147",
+            "D148",
+            "D149",
+            "D150"
+        ],
+        "hours": {
+            "Mon_Sun": "11:00-23:00"
+        },
+        "general_ranking": 4.4,
+        "food_types": [
+            "Healthy"
+        ],
+        "is_active": true,
+        "rush_hours": [
+            "12:00-13:30",
+            "19:00-20:30"
+        ]
+    }
+]

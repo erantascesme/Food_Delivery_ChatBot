@@ -1,0 +1,41 @@
+{
+    "diet": [],
+    "allergies": [
+        "peanuts"
+    ],
+    "intolerances": [],
+    "religious_restrictions": [],
+    "hated_ingredients": [],
+    "texture_aversions": [],
+    "spice_level": "high",
+    "preferred_flavors": [
+        "salty",
+        "spicy"
+    ],
+    "avoid_flavors": [],
+    "nutrition_goals": [
+        "weight loss",
+        "low-fat"
+    ],
+    "favorite_cuisines": [],
+    "avoid_cuisines": [],
+    "preferred_dish_types": [
+        "meat"
+    ],
+    "preferred_proteins": [
+        "beef",
+        "meat"
+    ],
+    "avoid_proteins": [],
+    "occasion": "",
+    "time_limit_minutes": null,
+    "budget": {
+        "min": null,
+        "max": null,
+        "currency": "ILS"
+    },
+    "customization_preference": "some",
+    "portion_preference": "",
+    "adventurousness": "medium",
+    "character_summary": "A meat lover who craves bold, salty, and spicy flavors. They are health-conscious and actively watching their weight, so they prefer lean protein over calorie-dense sides. Must strictly avoid peanuts."
+}

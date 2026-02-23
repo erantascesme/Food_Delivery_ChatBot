@@ -1,0 +1,602 @@
+[
+  {
+    "id": "O101",
+    "customer_id": "C001",
+    "restaurant_id": "R022",
+    "ordered_dishes_ids": [
+      "D106"
+    ],
+    "ranking": 3,
+    "date": "2023-11-18",
+    "time": "13:03:00",
+    "conversation_summary": "Customer complained that the previous delivery was late. Bot apologized and offered priority delivery. Customer ordered Truffle Fettuccine from The Olive 77."
+  },
+  {
+    "id": "O102",
+    "customer_id": "C001",
+    "restaurant_id": "R015",
+    "ordered_dishes_ids": [
+      "D072"
+    ],
+    "ranking": 3,
+    "date": "2023-11-09",
+    "time": "14:42:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Organic Grain Bowl from Pure Bowls 92."
+  },
+  {
+    "id": "O103",
+    "customer_id": "C001",
+    "restaurant_id": "R019",
+    "ordered_dishes_ids": [
+      "D094"
+    ],
+    "ranking": 3,
+    "date": "2023-11-03",
+    "time": "21:21:00",
+    "conversation_summary": "Customer asked if Aztec Grill 75 is still serving. Bot confirmed hours. Customer ordered the Spicy Bowl and requested 'extra Corn'. Bot added note to order."
+  },
+  {
+    "id": "O104",
+    "customer_id": "C001",
+    "restaurant_id": "R017",
+    "ordered_dishes_ids": [
+      "D085"
+    ],
+    "ranking": 4,
+    "date": "2023-10-15",
+    "time": "13:38:00",
+    "conversation_summary": "Customer wanted something vegetarian-option. Bot filtered results and showed Cheesy Lasagna. Customer instantly ordered it."
+  },
+  {
+    "id": "O105",
+    "customer_id": "C001",
+    "restaurant_id": "R005",
+    "ordered_dishes_ids": [
+      "D025"
+    ],
+    "ranking": 5,
+    "date": "2023-11-01",
+    "time": "17:20:00",
+    "conversation_summary": "Customer wanted something vegan. Bot filtered results and showed Green Avocado Toast. Customer instantly ordered it."
+  },
+  {
+    "id": "O106",
+    "customer_id": "C001",
+    "restaurant_id": "R001",
+    "ordered_dishes_ids": [
+      "D002"
+    ],
+    "ranking": 5,
+    "date": "2023-10-07",
+    "time": "18:33:00",
+    "conversation_summary": "Customer asked about the spice level of the Miso-Glazed Sushi Roll. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O107",
+    "customer_id": "C001",
+    "restaurant_id": "R011",
+    "ordered_dishes_ids": [
+      "D055"
+    ],
+    "ranking": 5,
+    "date": "2023-11-17",
+    "time": "16:48:00",
+    "conversation_summary": "Customer asked about the spice level of the Miso-Glazed Tempura. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O108",
+    "customer_id": "C001",
+    "restaurant_id": "R018",
+    "ordered_dishes_ids": [
+      "D090"
+    ],
+    "ranking": 4,
+    "date": "2023-11-16",
+    "time": "16:07:00",
+    "conversation_summary": "Customer asked if Diner 24 74 is still serving. Bot confirmed hours. Customer ordered the Smoked Ribs and requested 'extra BBQ Sauce'. Bot added note to order."
+  },
+  {
+    "id": "O109",
+    "customer_id": "C001",
+    "restaurant_id": "R025",
+    "ordered_dishes_ids": [
+      "D122"
+    ],
+    "ranking": 3,
+    "date": "2023-10-23",
+    "time": "21:40:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Detox Grain Bowl. Customer asked if it contains Avocado. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O110",
+    "customer_id": "C001",
+    "restaurant_id": "R012",
+    "ordered_dishes_ids": [
+      "D057"
+    ],
+    "ranking": 4,
+    "date": "2023-10-11",
+    "time": "12:52:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Wood-Fired Margherita Pizza from The Olive 94."
+  },
+  {
+    "id": "O111",
+    "customer_id": "C002",
+    "restaurant_id": "R017",
+    "ordered_dishes_ids": [
+      "D082"
+    ],
+    "ranking": 4,
+    "date": "2023-10-27",
+    "time": "15:55:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Classic Margherita Pizza from Roma Express 79."
+  },
+  {
+    "id": "O112",
+    "customer_id": "C002",
+    "restaurant_id": "R026",
+    "ordered_dishes_ids": [
+      "D130"
+    ],
+    "ranking": 5,
+    "date": "2023-11-15",
+    "time": "15:24:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Hand-rolled Udon. Customer asked if it contains Wasabi. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O113",
+    "customer_id": "C002",
+    "restaurant_id": "R026",
+    "ordered_dishes_ids": [
+      "D130"
+    ],
+    "ranking": 3,
+    "date": "2023-11-09",
+    "time": "13:16:00",
+    "conversation_summary": "Customer asked about the spice level of the Hand-rolled Udon. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O114",
+    "customer_id": "C002",
+    "restaurant_id": "R029",
+    "ordered_dishes_ids": [
+      "D141"
+    ],
+    "ranking": 5,
+    "date": "2023-10-18",
+    "time": "16:39:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Spicy Quesadilla from El Camino 72."
+  },
+  {
+    "id": "O115",
+    "customer_id": "C002",
+    "restaurant_id": "R010",
+    "ordered_dishes_ids": [
+      "D047"
+    ],
+    "ranking": 3,
+    "date": "2023-10-10",
+    "time": "13:53:00",
+    "conversation_summary": "Customer complained that the previous delivery was late. Bot apologized and offered priority delivery. Customer ordered Glow Wrap from Pure Bowls 37."
+  },
+  {
+    "id": "O116",
+    "customer_id": "C002",
+    "restaurant_id": "R024",
+    "ordered_dishes_ids": [
+      "D120"
+    ],
+    "ranking": 4,
+    "date": "2023-11-23",
+    "time": "17:36:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Fiesta Tacos. Customer asked if it contains Jalapeno. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O117",
+    "customer_id": "C002",
+    "restaurant_id": "R026",
+    "ordered_dishes_ids": [
+      "D126"
+    ],
+    "ranking": 5,
+    "date": "2023-10-19",
+    "time": "18:51:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Hand-rolled Ramen from Tokyo Bites 83."
+  },
+  {
+    "id": "O118",
+    "customer_id": "C002",
+    "restaurant_id": "R013",
+    "ordered_dishes_ids": [
+      "D061"
+    ],
+    "ranking": 4,
+    "date": "2023-10-21",
+    "time": "17:04:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Smoked Ribs. Customer asked if it contains Bun. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O119",
+    "customer_id": "C002",
+    "restaurant_id": "R008",
+    "ordered_dishes_ids": [
+      "D037"
+    ],
+    "ranking": 4,
+    "date": "2023-10-27",
+    "time": "19:56:00",
+    "conversation_summary": "Customer asked about the spice level of the Texas Hot Dog. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O120",
+    "customer_id": "C002",
+    "restaurant_id": "R030",
+    "ordered_dishes_ids": [
+      "D148"
+    ],
+    "ranking": 4,
+    "date": "2023-10-21",
+    "time": "17:17:00",
+    "conversation_summary": "Customer wanted something vegan. Bot filtered results and showed Organic Smoothie. Customer instantly ordered it."
+  },
+  {
+    "id": "O121",
+    "customer_id": "C003",
+    "restaurant_id": "R027",
+    "ordered_dishes_ids": [
+      "D135"
+    ],
+    "ranking": 4,
+    "date": "2023-11-13",
+    "time": "13:50:00",
+    "conversation_summary": "Customer complained that the previous delivery was late. Bot apologized and offered priority delivery. Customer ordered Truffle Risotto from Mama Mia 1."
+  },
+  {
+    "id": "O122",
+    "customer_id": "C003",
+    "restaurant_id": "R010",
+    "ordered_dishes_ids": [
+      "D050"
+    ],
+    "ranking": 3,
+    "date": "2023-10-26",
+    "time": "20:40:00",
+    "conversation_summary": "Customer asked if Pure Bowls 37 is still serving. Bot confirmed hours. Customer ordered the Organic Avocado Toast and requested 'extra Vinaigrette'. Bot added note to order."
+  },
+  {
+    "id": "O123",
+    "customer_id": "C003",
+    "restaurant_id": "R017",
+    "ordered_dishes_ids": [
+      "D083"
+    ],
+    "ranking": 3,
+    "date": "2023-11-13",
+    "time": "19:24:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Classic Margherita Pizza. Customer asked if it contains Olive Oil. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O124",
+    "customer_id": "C003",
+    "restaurant_id": "R023",
+    "ordered_dishes_ids": [
+      "D115"
+    ],
+    "ranking": 3,
+    "date": "2023-10-28",
+    "time": "12:07:00",
+    "conversation_summary": "Customer wanted something meaty. Bot filtered results and showed Smoked Hot Dog. Customer instantly ordered it."
+  },
+  {
+    "id": "O125",
+    "customer_id": "C003",
+    "restaurant_id": "R020",
+    "ordered_dishes_ids": [
+      "D097"
+    ],
+    "ranking": 3,
+    "date": "2023-10-08",
+    "time": "13:05:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Power Grain Bowl from Nature's Way 32."
+  },
+  {
+    "id": "O126",
+    "customer_id": "C003",
+    "restaurant_id": "R023",
+    "ordered_dishes_ids": [
+      "D114"
+    ],
+    "ranking": 5,
+    "date": "2023-10-13",
+    "time": "11:08:00",
+    "conversation_summary": "Customer asked if Diner 24 36 is still serving. Bot confirmed hours. Customer ordered the Classic Wings and requested 'extra Bacon'. Bot added note to order."
+  },
+  {
+    "id": "O127",
+    "customer_id": "C003",
+    "restaurant_id": "R002",
+    "ordered_dishes_ids": [
+      "D008"
+    ],
+    "ranking": 5,
+    "date": "2023-10-06",
+    "time": "13:13:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Classic Lasagna. Customer asked if it contains Pasta. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O128",
+    "customer_id": "C003",
+    "restaurant_id": "R010",
+    "ordered_dishes_ids": [
+      "D048"
+    ],
+    "ranking": 4,
+    "date": "2023-10-13",
+    "time": "17:17:00",
+    "conversation_summary": "Customer asked about the spice level of the Detox Kale Salad. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O129",
+    "customer_id": "C003",
+    "restaurant_id": "R006",
+    "ordered_dishes_ids": [
+      "D026"
+    ],
+    "ranking": 4,
+    "date": "2023-11-17",
+    "time": "18:25:00",
+    "conversation_summary": "Customer wanted something raw. Bot filtered results and showed Crispy Udon. Customer instantly ordered it."
+  },
+  {
+    "id": "O130",
+    "customer_id": "C003",
+    "restaurant_id": "R007",
+    "ordered_dishes_ids": [
+      "D033"
+    ],
+    "ranking": 4,
+    "date": "2023-10-26",
+    "time": "14:17:00",
+    "conversation_summary": "Customer asked if Luigi's 79 is still serving. Bot confirmed hours. Customer ordered the Classic Margherita Pizza and requested 'extra Mozzarella'. Bot added note to order."
+  },
+  {
+    "id": "O131",
+    "customer_id": "C004",
+    "restaurant_id": "R028",
+    "ordered_dishes_ids": [
+      "D139"
+    ],
+    "ranking": 3,
+    "date": "2023-11-12",
+    "time": "15:01:00",
+    "conversation_summary": "Customer wanted something meaty. Bot filtered results and showed Double Steak. Customer instantly ordered it."
+  },
+  {
+    "id": "O132",
+    "customer_id": "C004",
+    "restaurant_id": "R006",
+    "ordered_dishes_ids": [
+      "D026"
+    ],
+    "ranking": 4,
+    "date": "2023-10-28",
+    "time": "11:50:00",
+    "conversation_summary": "Customer asked about the spice level of the Crispy Udon. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O133",
+    "customer_id": "C004",
+    "restaurant_id": "R002",
+    "ordered_dishes_ids": [
+      "D007"
+    ],
+    "ranking": 4,
+    "date": "2023-10-22",
+    "time": "17:40:00",
+    "conversation_summary": "Customer wanted something vegetarian-option. Bot filtered results and showed Creamy Margherita Pizza. Customer instantly ordered it."
+  },
+  {
+    "id": "O134",
+    "customer_id": "C004",
+    "restaurant_id": "R009",
+    "ordered_dishes_ids": [
+      "D042"
+    ],
+    "ranking": 4,
+    "date": "2023-10-18",
+    "time": "16:51:00",
+    "conversation_summary": "Customer asked about the spice level of the Zesty Enchiladas. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O135",
+    "customer_id": "C004",
+    "restaurant_id": "R028",
+    "ordered_dishes_ids": [
+      "D137"
+    ],
+    "ranking": 3,
+    "date": "2023-10-07",
+    "time": "18:14:00",
+    "conversation_summary": "Customer asked about the spice level of the Smoked Mac & Cheese. Bot explained it is medium spicy but can be made mild. Customer chose the mild version."
+  },
+  {
+    "id": "O136",
+    "customer_id": "C004",
+    "restaurant_id": "R027",
+    "ordered_dishes_ids": [
+      "D135"
+    ],
+    "ranking": 3,
+    "date": "2023-11-24",
+    "time": "16:20:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Truffle Risotto. Customer asked if it contains Parmesan. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O137",
+    "customer_id": "C004",
+    "restaurant_id": "R027",
+    "ordered_dishes_ids": [
+      "D135"
+    ],
+    "ranking": 4,
+    "date": "2023-10-21",
+    "time": "15:24:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Truffle Risotto from Mama Mia 1."
+  },
+  {
+    "id": "O138",
+    "customer_id": "C004",
+    "restaurant_id": "R016",
+    "ordered_dishes_ids": [
+      "D077"
+    ],
+    "ranking": 5,
+    "date": "2023-10-10",
+    "time": "18:40:00",
+    "conversation_summary": "Customer wanted something raw. Bot filtered results and showed Umami Bento Box. Customer instantly ordered it."
+  },
+  {
+    "id": "O139",
+    "customer_id": "C004",
+    "restaurant_id": "R015",
+    "ordered_dishes_ids": [
+      "D075"
+    ],
+    "ranking": 4,
+    "date": "2023-10-18",
+    "time": "11:26:00",
+    "conversation_summary": "Customer wanted something vegan. Bot filtered results and showed Green Kale Salad. Customer instantly ordered it."
+  },
+  {
+    "id": "O140",
+    "customer_id": "C004",
+    "restaurant_id": "R011",
+    "ordered_dishes_ids": [
+      "D055"
+    ],
+    "ranking": 5,
+    "date": "2023-11-22",
+    "time": "19:29:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Miso-Glazed Tempura. Customer asked if it contains Rice. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O141",
+    "customer_id": "C005",
+    "restaurant_id": "R019",
+    "ordered_dishes_ids": [
+      "D092"
+    ],
+    "ranking": 3,
+    "date": "2023-11-07",
+    "time": "15:47:00",
+    "conversation_summary": "Customer complained that the previous delivery was late. Bot apologized and offered priority delivery. Customer ordered Zesty Quesadilla from Aztec Grill 75."
+  },
+  {
+    "id": "O142",
+    "customer_id": "C005",
+    "restaurant_id": "R016",
+    "ordered_dishes_ids": [
+      "D076"
+    ],
+    "ranking": 3,
+    "date": "2023-11-02",
+    "time": "11:59:00",
+    "conversation_summary": "Customer asked if Nori Spot 4 is still serving. Bot confirmed hours. Customer ordered the Crispy Ramen and requested 'extra Nori'. Bot added note to order."
+  },
+  {
+    "id": "O143",
+    "customer_id": "C005",
+    "restaurant_id": "R014",
+    "ordered_dishes_ids": [
+      "D069"
+    ],
+    "ranking": 3,
+    "date": "2023-10-11",
+    "time": "15:02:00",
+    "conversation_summary": "Customer wanted something spicy. Bot filtered results and showed Street-Style Bowl. Customer instantly ordered it."
+  },
+  {
+    "id": "O144",
+    "customer_id": "C005",
+    "restaurant_id": "R023",
+    "ordered_dishes_ids": [
+      "D111"
+    ],
+    "ranking": 4,
+    "date": "2023-11-11",
+    "time": "12:46:00",
+    "conversation_summary": "Customer asked for a recommendation. Bot suggested the Loaded Ribs. Customer asked if it contains Lettuce. Bot confirmed it does. Customer proceeded with the order."
+  },
+  {
+    "id": "O145",
+    "customer_id": "C005",
+    "restaurant_id": "R009",
+    "ordered_dishes_ids": [
+      "D043"
+    ],
+    "ranking": 3,
+    "date": "2023-11-20",
+    "time": "21:53:00",
+    "conversation_summary": "Customer asked if Aztec Grill 16 is still serving. Bot confirmed hours. Customer ordered the Zesty Nachos and requested 'extra Salsa'. Bot added note to order."
+  },
+  {
+    "id": "O146",
+    "customer_id": "C005",
+    "restaurant_id": "R004",
+    "ordered_dishes_ids": [
+      "D017"
+    ],
+    "ranking": 5,
+    "date": "2023-11-02",
+    "time": "15:05:00",
+    "conversation_summary": "Customer complained that the previous delivery was late. Bot apologized and offered priority delivery. Customer ordered Zesty Quesadilla from Burrito Bros 27."
+  },
+  {
+    "id": "O147",
+    "customer_id": "C005",
+    "restaurant_id": "R008",
+    "ordered_dishes_ids": [
+      "D038"
+    ],
+    "ranking": 3,
+    "date": "2023-10-07",
+    "time": "16:26:00",
+    "conversation_summary": "Customer asked if Burger Joint 45 is still serving. Bot confirmed hours. Customer ordered the Loaded Cheeseburger and requested 'extra Cheddar'. Bot added note to order."
+  },
+  {
+    "id": "O148",
+    "customer_id": "C005",
+    "restaurant_id": "R012",
+    "ordered_dishes_ids": [
+      "D059"
+    ],
+    "ranking": 5,
+    "date": "2023-11-03",
+    "time": "12:45:00",
+    "conversation_summary": "Customer wanted something vegetarian-option. Bot filtered results and showed Cheesy Fettuccine. Customer instantly ordered it."
+  },
+  {
+    "id": "O149",
+    "customer_id": "C005",
+    "restaurant_id": "R019",
+    "ordered_dishes_ids": [
+      "D091"
+    ],
+    "ranking": 4,
+    "date": "2023-11-21",
+    "time": "19:05:00",
+    "conversation_summary": "Customer simply wrote 'hungry'. Bot showed previous favorites. Customer re-ordered Grande Enchiladas from Aztec Grill 75."
+  },
+  {
+    "id": "O150",
+    "customer_id": "C005",
+    "restaurant_id": "R027",
+    "ordered_dishes_ids": [
+      "D132"
+    ],
+    "ranking": 5,
+    "date": "2023-10-16",
+    "time": "13:09:00",
+    "conversation_summary": "Customer complained that the previous delivery was late. Bot apologized and offered priority delivery. Customer ordered Rustic Margherita Pizza from Mama Mia 1."
+  }
+]

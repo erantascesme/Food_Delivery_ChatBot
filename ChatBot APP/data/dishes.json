@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "D001",
+    "name": "Hand-rolled Tempura",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Nori", "Sushi Rice", "Tempura Shrimp", "Avocado", "Spicy Mayo", "Sesame Seeds"],
+    "price": 20.44,
+    "preparation_time": 19,
+    "rating": 4.5
+  },
+  {
+    "id": "D002",
+    "name": "Miso-Glazed Sushi Roll",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Sushi Rice", "Nori", "Salmon", "Miso Glaze", "Cucumber", "Scallion"],
+    "price": 10.28,
+    "preparation_time": 11,
+    "rating": 4.2
+  },
+  {
+    "id": "D003",
+    "name": "Hand-rolled Bento Box",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Sushi Rice", "Nori", "Sashimi Salmon", "Pickled Ginger", "Wasabi", "Soy Sauce"],
+    "price": 12.57,
+    "preparation_time": 17,
+    "rating": 3.8
+  },
+  {
+    "id": "D004",
+    "name": "Hand-rolled Udon",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Udon Noodles", "Dashi Broth", "Tempura Flakes", "Nori", "Scallion", "Kamaboko"],
+    "price": 22.76,
+    "preparation_time": 14,
+    "rating": 4.0
+  },
+  {
+    "id": "D005",
+    "name": "Spicy Tempura",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Shrimp", "Tempura Batter", "Spicy Mayo", "Chili Oil", "Scallion", "Dipping Sauce"],
+    "price": 17.92,
+    "preparation_time": 12,
+    "rating": 4.7
+  },
+  {
+    "id": "D006",
+    "name": "Classic Gnocchi",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Potato Gnocchi", "Sage", "Butter", "Parmesan", "Black Pepper", "Garlic"],
+    "price": 19.99,
+    "preparation_time": 20,
+    "rating": 4.3
+  },
+  {
+    "id": "D007",
+    "name": "Creamy Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Fresh Mozzarella", "Heavy Cream", "Basil", "Olive Oil"],
+    "price": 10.3,
+    "preparation_time": 35,
+    "rating": 4.6
+  },
+  {
+    "id": "D008",
+    "name": "Classic Lasagna",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Lasagna Sheets", "Bolognese Sauce", "Béchamel", "Mozzarella", "Parmesan", "Basil"],
+    "price": 15.09,
+    "preparation_time": 20,
+    "rating": 4.8
+  },
+  {
+    "id": "D009",
+    "name": "Classic Risotto",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Arborio Rice", "White Wine", "Chicken Stock", "Parmesan", "Butter", "Shallots"],
+    "price": 16.83,
+    "preparation_time": 30,
+    "rating": 4.1
+  },
+  {
+    "id": "D010",
+    "name": "Classic Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Pizza Dough", "San Marzano Tomatoes", "Mozzarella di Bufala", "Basil", "Olive Oil", "Sea Salt"],
+    "price": 17.38,
+    "preparation_time": 24,
+    "rating": 4.9
+  },
+  {
+    "id": "D011",
+    "name": "Texas Hot Dog",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Beef Frank", "Hot Dog Bun", "Chili Sauce", "Cheddar Cheese", "Onions", "Mustard"],
+    "price": 19.49,
+    "preparation_time": 30,
+    "rating": 3.5
+  },
+  {
+    "id": "D012",
+    "name": "Loaded Cheeseburger",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Beef Patty", "Brioche Bun", "Cheddar Cheese", "Bacon", "Fried Egg", "Caramelized Onions"],
+    "price": 24.93,
+    "preparation_time": 21,
+    "rating": 4.7
+  },
+  {
+    "id": "D013",
+    "name": "Texas Ribs",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Pork Ribs", "BBQ Sauce", "Dry Rub", "Coleslaw", "Cornbread", "Pickles"],
+    "price": 18.84,
+    "preparation_time": 16,
+    "rating": 4.6
+  },
+  {
+    "id": "D014",
+    "name": "Smoked Hot Dog",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Smoked Sausage", "Bun", "BBQ Sauce", "Crispy Onions", "Bacon Bits", "Jalapeno"],
+    "price": 20.93,
+    "preparation_time": 29,
+    "rating": 4.0
+  },
+  {
+    "id": "D015",
+    "name": "Classic Cheeseburger",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Beef Patty", "Sesame Bun", "American Cheese", "Lettuce", "Tomato", "Pickles"],
+    "price": 21.48,
+    "preparation_time": 19,
+    "rating": 4.2
+  },
+  {
+    "id": "D016",
+    "name": "Street-Style Tacos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Corn Tortilla", "Carne Asada", "Cilantro", "Onion", "Salsa Verde", "Lime"],
+    "price": 23.45,
+    "preparation_time": 24,
+    "rating": 4.5
+  },
+  {
+    "id": "D017",
+    "name": "Zesty Quesadilla",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Flour Tortilla", "Monterey Jack Cheese", "Chipotle Chicken", "Pico de Gallo", "Sour Cream", "Lime"],
+    "price": 17.23,
+    "preparation_time": 22,
+    "rating": 4.1
+  },
+  {
+    "id": "D018",
+    "name": "Fiesta Nachos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Tortilla Chips", "Nacho Cheese", "Jalapenos", "Black Beans", "Pico de Gallo", "Guacamole"],
+    "price": 11.18,
+    "preparation_time": 11,
+    "rating": 4.4
+  },
+  {
+    "id": "D019",
+    "name": "Spicy Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Mexican Rice", "Spicy Chicken", "Black Beans", "Corn Salsa", "Jalapeno", "Chipotle Mayo"],
+    "price": 17.78,
+    "preparation_time": 19,
+    "rating": 4.3
+  },
+  {
+    "id": "D020",
+    "name": "Grande Tacos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Crispy Shell", "Ground Beef", "Lettuce", "Cheddar Cheese", "Sour Cream", "Salsa"],
+    "price": 17.24,
+    "preparation_time": 24,
+    "rating": 3.9
+  },
+  {
+    "id": "D021",
+    "name": "Organic Smoothie",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Banana", "Spinach", "Almond Milk", "Chia Seeds", "Mango", "Agave"],
+    "price": 15.38,
+    "preparation_time": 9,
+    "rating": 4.8
+  },
+  {
+    "id": "D022",
+    "name": "Power Smoothie",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Protein Powder", "Blueberries", "Oat Milk", "Peanut Butter", "Banana", "Flax Seeds"],
+    "price": 22.89,
+    "preparation_time": 9,
+    "rating": 4.7
+  },
+  {
+    "id": "D023",
+    "name": "Organic Poke Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Tofu", "Brown Rice", "Edamame", "Cucumber", "Avocado", "Sesame Soy Dressing"],
+    "price": 16.7,
+    "preparation_time": 12,
+    "rating": 4.6
+  },
+  {
+    "id": "D024",
+    "name": "Glow Smoothie",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Cucumber", "Green Apple", "Kale", "Lemon", "Ginger", "Coconut Water"],
+    "price": 14.07,
+    "preparation_time": 10,
+    "rating": 4.2
+  },
+  {
+    "id": "D025",
+    "name": "Green Avocado Toast",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Gluten-Free Bread", "Smashed Avocado", "Radish", "Red Pepper Flakes", "Sea Salt", "Lemon Juice"],
+    "price": 14.09,
+    "preparation_time": 9,
+    "rating": 4.5
+  },
+  {
+    "id": "D026",
+    "name": "Crispy Udon",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Udon Noodles", "Tempura Shrimp", "Scallion", "Nori", "Dashi Broth", "Tempura Flakes"],
+    "price": 18.34,
+    "preparation_time": 17,
+    "rating": 4.3
+  },
+  {
+    "id": "D027",
+    "name": "Spicy Tempura",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Mixed Vegetables", "Tempura Batter", "Spicy Mayo", "Tentsuyu Sauce", "Shichimi Togarashi"],
+    "price": 10.31,
+    "preparation_time": 14,
+    "rating": 4.1
+  },
+  {
+    "id": "D028",
+    "name": "Umami Udon",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Udon Noodles", "Miso Broth", "Shiitake Mushrooms", "Bok Choy", "Tofu", "Sesame Oil"],
+    "price": 14.96,
+    "preparation_time": 13,
+    "rating": 4.4
+  },
+  {
+    "id": "D029",
+    "name": "Miso-Glazed Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Ramen Noodles", "Miso Broth", "Chashu Pork", "Menma", "Soft Boiled Egg", "Corn"],
+    "price": 22.54,
+    "preparation_time": 17,
+    "rating": 4.8
+  },
+  {
+    "id": "D030",
+    "name": "Hand-rolled Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Handmade Noodles", "Shoyu Broth", "Scallion", "Nori", "Narutomaki", "Chicken"],
+    "price": 17.61,
+    "preparation_time": 19,
+    "rating": 4.6
+  },
+  {
+    "id": "D031",
+    "name": "Wood-Fired Carbonara",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Spaghetti", "Pancetta", "Egg Yolk", "Pecorino Romano", "Black Pepper", "Olive Oil"],
+    "price": 13.15,
+    "preparation_time": 34,
+    "rating": 4.5
+  },
+  {
+    "id": "D032",
+    "name": "Rustic Fettuccine",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Fettuccine", "Alfredo Sauce", "Roasted Garlic", "Parsley", "Parmesan", "Butter"],
+    "price": 13.24,
+    "preparation_time": 28,
+    "rating": 4.0
+  },
+  {
+    "id": "D033",
+    "name": "Classic Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Sourdough Base", "Tomato Sauce", "Mozzarella", "Fresh Basil", "Extra Virgin Olive Oil"],
+    "price": 20.76,
+    "preparation_time": 24,
+    "rating": 4.7
+  },
+  {
+    "id": "D034",
+    "name": "Cheesy Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella", "Provolone", "Parmesan", "Basil"],
+    "price": 20.34,
+    "preparation_time": 25,
+    "rating": 4.4
+  },
+  {
+    "id": "D035",
+    "name": "Creamy Lasagna",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Lasagna Sheets", "Spinach", "Ricotta", "Béchamel Sauce", "Mozzarella", "Garlic"],
+    "price": 13.18,
+    "preparation_time": 29,
+    "rating": 4.3
+  },
+  {
+    "id": "D036",
+    "name": "Double Mac & Cheese",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Macaroni", "Cheddar Sauce", "Gruyere", "Breadcrumbs", "Bacon Bits", "Paprika"],
+    "price": 20.75,
+    "preparation_time": 21,
+    "rating": 4.6
+  },
+  {
+    "id": "D037",
+    "name": "Texas Hot Dog",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["BBQ Beef Sausage", "Bun", "Coleslaw", "BBQ Sauce", "Mustard", "Pickles"],
+    "price": 20.02,
+    "preparation_time": 24,
+    "rating": 3.8
+  },
+  {
+    "id": "D038",
+    "name": "Loaded Cheeseburger",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Double Beef Patty", "Brioche Bun", "Swiss Cheese", "Mushrooms", "Caramelized Onions", "Mayo"],
+    "price": 23.6,
+    "preparation_time": 29,
+    "rating": 4.8
+  },
+  {
+    "id": "D039",
+    "name": "Texas Ribs",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Baby Back Ribs", "Hickory Smoke", "BBQ Glaze", "Fries", "Toast", "Onion Rings"],
+    "price": 23.33,
+    "preparation_time": 23,
+    "rating": 4.9
+  },
+  {
+    "id": "D040",
+    "name": "Double Mac & Cheese",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Shell Pasta", "White Cheddar", "Pulled Pork", "BBQ Drizzle", "Fried Onions", "Parsley"],
+    "price": 20.15,
+    "preparation_time": 29,
+    "rating": 4.5
+  },
+  {
+    "id": "D041",
+    "name": "Grande Enchiladas",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Corn Tortilla", "Shredded Chicken", "Red Enchilada Sauce", "Cheese Blend", "Cilantro", "Crema"],
+    "price": 11.35,
+    "preparation_time": 22,
+    "rating": 4.2
+  },
+  {
+    "id": "D042",
+    "name": "Zesty Enchiladas",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Flour Tortilla", "Ground Beef", "Green Chile Sauce", "Queso Fresco", "Onion", "Avocado"],
+    "price": 17.53,
+    "preparation_time": 18,
+    "rating": 4.3
+  },
+  {
+    "id": "D043",
+    "name": "Zesty Nachos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Corn Chips", "Queso Blanco", "Chorizo", "Pickled Jalapeno", "Radish", "Cilantro"],
+    "price": 11.37,
+    "preparation_time": 14,
+    "rating": 4.4
+  },
+  {
+    "id": "D044",
+    "name": "Chipotle Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Cilantro Lime Rice", "Chipotle Steak", "Fajita Veggies", "Corn Salsa", "Guacamole", "Lettuce"],
+    "price": 17.03,
+    "preparation_time": 24,
+    "rating": 4.7
+  },
+  {
+    "id": "D045",
+    "name": "Street-Style Enchiladas",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Corn Tortilla", "Cheese Filling", "Mole Sauce", "Sesame Seeds", "Onion", "Radish"],
+    "price": 23.73,
+    "preparation_time": 17,
+    "rating": 4.5
+  },
+  {
+    "id": "D046",
+    "name": "Quinoa Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Quinoa", "Kale", "Lemon Vinaigrette", "Dried Cranberries", "Almonds", "Apple"],
+    "price": 10.34,
+    "preparation_time": 11,
+    "rating": 4.3
+  },
+  {
+    "id": "D047",
+    "name": "Glow Wrap",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Collard Green Wrap", "Hummus", "Shredded Carrots", "Cucumber", "Sprouts", "Avocado"],
+    "price": 15.9,
+    "preparation_time": 8,
+    "rating": 4.1
+  },
+  {
+    "id": "D048",
+    "name": "Detox Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Kale", "Tahini Dressing", "Chickpeas", "Roasted Sweet Potato", "Pumpkin Seeds", "Avocado"],
+    "price": 11.07,
+    "preparation_time": 9,
+    "rating": 4.6
+  },
+  {
+    "id": "D049",
+    "name": "Green Wrap",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Spinach Tortilla", "Pesto", "Grilled Tofu", "Spinach", "Tomato", "Cucumber"],
+    "price": 20.17,
+    "preparation_time": 10,
+    "rating": 4.0
+  },
+  {
+    "id": "D050",
+    "name": "Organic Avocado Toast",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Seeded Bread", "Avocado", "Microgreens", "Hemp Seeds", "Cherry Tomatoes", "Balsamic Glaze"],
+    "price": 24.66,
+    "preparation_time": 5,
+    "rating": 4.5
+  },
+  {
+    "id": "D051",
+    "name": "Miso-Glazed Udon",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Thick Udon Noodles", "Miso Glaze", "Scallops", "Snow Peas", "Sesame Seeds", "Bonito Flakes"],
+    "price": 12.46,
+    "preparation_time": 13,
+    "rating": 4.2
+  },
+  {
+    "id": "D052",
+    "name": "Miso-Glazed Bento Box",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Miso Salmon", "Steamed Rice", "Pickles", "Tamagoyaki", "Spinach Gomaae", "Edamame"],
+    "price": 23.99,
+    "preparation_time": 12,
+    "rating": 4.8
+  },
+  {
+    "id": "D053",
+    "name": "Fresh Tempura",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Prawns", "Sweet Potato", "Zucchini", "Tempura Batter", "Daikon Radish", "Tentsuyu"],
+    "price": 20.71,
+    "preparation_time": 11,
+    "rating": 4.6
+  },
+  {
+    "id": "D054",
+    "name": "Fresh Udon",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Hand-Cut Udon", "Clear Broth", "Wakame", "Fish Cake", "Scallion", "Ginger"],
+    "price": 13.59,
+    "preparation_time": 13,
+    "rating": 4.3
+  },
+  {
+    "id": "D055",
+    "name": "Miso-Glazed Tempura",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Tempura Vegetables", "Miso Drizzle", "Rice", "Scallion", "Sesame Seeds"],
+    "price": 19.65,
+    "preparation_time": 14,
+    "rating": 4.1
+  },
+  {
+    "id": "D056",
+    "name": "Classic Risotto",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Carnaroli Rice", "Saffron", "Parmesan", "Butter", "White Wine", "Onion"],
+    "price": 24.9,
+    "preparation_time": 31,
+    "rating": 4.5
+  },
+  {
+    "id": "D057",
+    "name": "Wood-Fired Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Charred Crust", "San Marzano Sauce", "Buffalo Mozzarella", "Basil", "Olive Oil"],
+    "price": 17.06,
+    "preparation_time": 25,
+    "rating": 4.9
+  },
+  {
+    "id": "D058",
+    "name": "Cheesy Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Thick Crust", "Tomato Sauce", "Extra Mozzarella", "Cheddar Blend", "Oregano", "Garlic Oil"],
+    "price": 13.5,
+    "preparation_time": 20,
+    "rating": 4.2
+  },
+  {
+    "id": "D059",
+    "name": "Cheesy Fettuccine",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Fettuccine Pasta", "Four Cheese Sauce", "Gorgonzola", "Walnuts", "Pear", "Cream"],
+    "price": 24.09,
+    "preparation_time": 29,
+    "rating": 4.4
+  },
+  {
+    "id": "D060",
+    "name": "Truffle Risotto",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Arborio Rice", "Black Truffle Pate", "Wild Mushrooms", "Parmesan", "Truffle Oil", "Thyme"],
+    "price": 16.18,
+    "preparation_time": 24,
+    "rating": 4.8
+  },
+  {
+    "id": "D061",
+    "name": "Smoked Ribs",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["St. Louis Ribs", "Smoky BBQ Sauce", "Fries", "Coleslaw", "Corn on Cob"],
+    "price": 13.78,
+    "preparation_time": 16,
+    "rating": 4.7
+  },
+  {
+    "id": "D062",
+    "name": "Smoked Steak",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Ribeye Steak", "Smoked Butter", "Mashed Potatoes", "Asparagus", "Steak Sauce"],
+    "price": 18.22,
+    "preparation_time": 19,
+    "rating": 4.9
+  },
+  {
+    "id": "D063",
+    "name": "Classic Mac & Cheese",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Elbow Macaroni", "Sharp Cheddar", "Milk", "Butter", "Mustard Powder"],
+    "price": 19.41,
+    "preparation_time": 19,
+    "rating": 4.3
+  },
+  {
+    "id": "D064",
+    "name": "Fried Cheeseburger",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Deep Fried Patty", "Bun", "Cheese Sauce", "Bacon", "Jalapenos"],
+    "price": 13.11,
+    "preparation_time": 21,
+    "rating": 3.9
+  },
+  {
+    "id": "D065",
+    "name": "Classic Cheeseburger",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Angus Beef Patty", "Potato Bun", "Cheddar", "Tomato", "Lettuce", "Burger Sauce"],
+    "price": 15.43,
+    "preparation_time": 18,
+    "rating": 4.5
+  },
+  {
+    "id": "D066",
+    "name": "Grande Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Rice", "Beans", "Steak", "Chicken", "Guacamole", "Sour Cream"],
+    "price": 23.55,
+    "preparation_time": 11,
+    "rating": 4.6
+  },
+  {
+    "id": "D067",
+    "name": "Fiesta Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Quinoa", "Roasted Corn", "Black Beans", "Mango Salsa", "Avocado Lime Dressing", "Pepitas"],
+    "price": 21.19,
+    "preparation_time": 13,
+    "rating": 4.4
+  },
+  {
+    "id": "D068",
+    "name": "Street-Style Burrito",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Large Tortilla", "Carnitas", "Rice", "Refried Beans", "Salsa Roja", "Cheese"],
+    "price": 23.48,
+    "preparation_time": 10,
+    "rating": 4.5
+  },
+  {
+    "id": "D069",
+    "name": "Street-Style Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Cauliflower Rice", "Grilled Chicken", "Fajita Peppers", "Salsa", "Cilantro", "Lime"],
+    "price": 12.53,
+    "preparation_time": 15,
+    "rating": 4.2
+  },
+  {
+    "id": "D070",
+    "name": "Street-Style Quesadilla",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Corn Tortillas", "Oaxaca Cheese", "Mushrooms", "Epazote", "Salsa Verde"],
+    "price": 11.1,
+    "preparation_time": 22,
+    "rating": 4.3
+  },
+  {
+    "id": "D071",
+    "name": "Quinoa Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Quinoa", "Roasted Beets", "Arugula", "Goat Cheese", "Walnuts", "Balsamic"],
+    "price": 22.78,
+    "preparation_time": 13,
+    "rating": 4.5
+  },
+  {
+    "id": "D072",
+    "name": "Organic Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Farro", "Roasted Broccoli", "Sweet Potato", "Lemon Tahini", "Chickpeas", "Parsley"],
+    "price": 10.74,
+    "preparation_time": 11,
+    "rating": 4.4
+  },
+  {
+    "id": "D073",
+    "name": "Power Wrap",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Whole Wheat Tortilla", "Black Bean Burger", "Spinach", "Salsa", "Avocado"],
+    "price": 11.79,
+    "preparation_time": 13,
+    "rating": 4.1
+  },
+  {
+    "id": "D074",
+    "name": "Organic Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Brown Rice", "Lentils", "Kale", "Carrots", "Turmeric Dressing", "Sunflower Seeds"],
+    "price": 19.12,
+    "preparation_time": 15,
+    "rating": 4.6
+  },
+  {
+    "id": "D075",
+    "name": "Green Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Massaged Kale", "Lemon Juice", "Olive Oil", "Garlic", "Nutritional Yeast", "Pine Nuts"],
+    "price": 17.95,
+    "preparation_time": 12,
+    "rating": 4.2
+  },
+  {
+    "id": "D076",
+    "name": "Crispy Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Pan Fried Noodles", "Seafood Gravy", "Shrimp", "Squid", "Vegetables", "Quail Egg"],
+    "price": 17.97,
+    "preparation_time": 16,
+    "rating": 4.4
+  },
+  {
+    "id": "D077",
+    "name": "Umami Bento Box",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Teriyaki Chicken", "Rice", "Tempura Veggies", "Salad", "Miso Soup", "Fruit"],
+    "price": 14.88,
+    "preparation_time": 12,
+    "rating": 4.7
+  },
+  {
+    "id": "D078",
+    "name": "Umami Bento Box",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Grilled Mackerel", "Rice", "Pickles", "Potato Salad", "Egg Roll", "Edamame"],
+    "price": 20.26,
+    "preparation_time": 14,
+    "rating": 4.5
+  },
+  {
+    "id": "D079",
+    "name": "Spicy Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Tonkotsu Broth", "Spicy Miso", "Ground Pork", "Noodles", "Scallion", "Chili Oil"],
+    "price": 14.54,
+    "preparation_time": 11,
+    "rating": 4.8
+  },
+  {
+    "id": "D080",
+    "name": "Miso-Glazed Sashimi",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Salmon Sashimi", "Tuna Sashimi", "Miso Dressing", "Radish Sprouts", "Wasabi"],
+    "price": 20.0,
+    "preparation_time": 15,
+    "rating": 4.9
+  },
+  {
+    "id": "D081",
+    "name": "Rustic Gnocchi",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Ricotta Gnocchi", "Brown Butter", "Sage", "Parmesan", "Hazelnuts"],
+    "price": 13.22,
+    "preparation_time": 28,
+    "rating": 4.3
+  },
+  {
+    "id": "D082",
+    "name": "Classic Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Thin Crust", "Marinara", "Mozzarella", "Basil", "Oregano"],
+    "price": 12.0,
+    "preparation_time": 31,
+    "rating": 4.4
+  },
+  {
+    "id": "D083",
+    "name": "Classic Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Gluten-Free Crust", "Tomato Sauce", "Vegan Mozzarella", "Basil", "Olive Oil"],
+    "price": 10.25,
+    "preparation_time": 27,
+    "rating": 3.9
+  },
+  {
+    "id": "D084",
+    "name": "Creamy Fettuccine",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Fettuccine", "Carbonara Sauce", "Pancetta", "Peas", "Parmesan", "Egg"],
+    "price": 24.6,
+    "preparation_time": 24,
+    "rating": 4.6
+  },
+  {
+    "id": "D085",
+    "name": "Cheesy Lasagna",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Meat Sauce", "Ricotta Blend", "Mozzarella", "Parmesan", "Pasta Sheets", "Marinara"],
+    "price": 22.48,
+    "preparation_time": 27,
+    "rating": 4.7
+  },
+  {
+    "id": "D086",
+    "name": "Loaded Hot Dog",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Jumbo Frank", "Bun", "Relish", "Sauerkraut", "Mustard", "Ketchup"],
+    "price": 21.16,
+    "preparation_time": 17,
+    "rating": 4.0
+  },
+  {
+    "id": "D087",
+    "name": "Loaded Cheeseburger",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Beef Patty", "Pepper Jack Cheese", "Guacamole", "Pico de Gallo", "Bun", "Lettuce"],
+    "price": 22.09,
+    "preparation_time": 17,
+    "rating": 4.5
+  },
+  {
+    "id": "D088",
+    "name": "Classic Steak",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Sirloin Steak", "Garlic Butter", "Fries", "Green Salad", "Peppercorn Sauce"],
+    "price": 24.99,
+    "preparation_time": 28,
+    "rating": 4.8
+  },
+  {
+    "id": "D089",
+    "name": "Loaded Cheeseburger",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Beef Patty", "Blue Cheese", "Bacon Jam", "Arugula", "Brioche Bun"],
+    "price": 23.38,
+    "preparation_time": 21,
+    "rating": 4.6
+  },
+  {
+    "id": "D090",
+    "name": "Smoked Ribs",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Beef Ribs", "Spice Rub", "BBQ Sauce", "Mac and Cheese", "Collard Greens"],
+    "price": 17.63,
+    "preparation_time": 28,
+    "rating": 4.9
+  },
+  {
+    "id": "D091",
+    "name": "Grande Enchiladas",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Tortillas", "Barbacoa", "Red Sauce", "Cotija Cheese", "Onion", "Cilantro"],
+    "price": 21.35,
+    "preparation_time": 10,
+    "rating": 4.4
+  },
+  {
+    "id": "D092",
+    "name": "Zesty Quesadilla",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Tortilla", "Cheddar", "Jalapenos", "Black Olives", "Salsa", "Sour Cream"],
+    "price": 12.14,
+    "preparation_time": 15,
+    "rating": 4.1
+  },
+  {
+    "id": "D093",
+    "name": "Chipotle Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Brown Rice", "Sofritas", "Pinto Beans", "Tomato Salsa", "Corn", "Romaine"],
+    "price": 20.77,
+    "preparation_time": 19,
+    "rating": 4.3
+  },
+  {
+    "id": "D094",
+    "name": "Spicy Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Rice", "Spicy Shrimp", "Cabbage Slaw", "Avocado Cream", "Lime", "Radish"],
+    "price": 18.46,
+    "preparation_time": 25,
+    "rating": 4.6
+  },
+  {
+    "id": "D095",
+    "name": "Chipotle Tacos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Soft Tortillas", "Chipotle Pork", "Pineapple Salsa", "Onion", "Cilantro"],
+    "price": 10.21,
+    "preparation_time": 11,
+    "rating": 4.5
+  },
+  {
+    "id": "D096",
+    "name": "Power Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Wild Rice", "Roasted Chickpeas", "Cucumber", "Tomato", "Tzatziki", "Dill"],
+    "price": 20.24,
+    "preparation_time": 12,
+    "rating": 4.4
+  },
+  {
+    "id": "D097",
+    "name": "Power Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Millet", "Adzuki Beans", "Roasted Squash", "Miso Ginger Dressing", "Sesame Seeds"],
+    "price": 12.22,
+    "preparation_time": 11,
+    "rating": 4.2
+  },
+  {
+    "id": "D098",
+    "name": "Glow Wrap",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Rice Paper", "Tofu", "Vermicelli", "Mint", "Basil", "Peanut Dip"],
+    "price": 15.65,
+    "preparation_time": 9,
+    "rating": 4.3
+  },
+  {
+    "id": "D099",
+    "name": "Organic Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Kale", "Apple Cider Vinaigrette", "Cranberries", "Pecans", "Red Onion"],
+    "price": 17.55,
+    "preparation_time": 6,
+    "rating": 4.1
+  },
+  {
+    "id": "D100",
+    "name": "Organic Avocado Toast",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Sourdough", "Avocado", "Poached Egg", "Chili Flakes", "Sea Salt"],
+    "price": 22.41,
+    "preparation_time": 14,
+    "rating": 4.7
+  },
+  {
+    "id": "D101",
+    "name": "Crispy Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Deep Fried Noodles", "Vegetable Ankake", "Pork", "Mushrooms", "Carrots"],
+    "price": 16.32,
+    "preparation_time": 18,
+    "rating": 4.0
+  },
+  {
+    "id": "D102",
+    "name": "Fresh Tempura",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Squid", "Pumpkin", "Lotus Root", "Tempura Batter", "Matcha Salt"],
+    "price": 17.8,
+    "preparation_time": 16,
+    "rating": 4.5
+  },
+  {
+    "id": "D103",
+    "name": "Spicy Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Spicy Chicken Broth", "Chicken Meatballs", "Noodles", "Spinach", "Chili Paste"],
+    "price": 24.62,
+    "preparation_time": 20,
+    "rating": 4.6
+  },
+  {
+    "id": "D104",
+    "name": "Miso-Glazed Sushi Roll",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Sushi Rice", "Nori", "Tuna", "Miso Mayo", "Avocado", "Crispy Onion"],
+    "price": 14.37,
+    "preparation_time": 16,
+    "rating": 4.3
+  },
+  {
+    "id": "D105",
+    "name": "Spicy Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Veggie Broth", "Tofu", "Noodles", "Corn", "Spicy Sesame Oil", "Bean Sprouts"],
+    "price": 24.77,
+    "preparation_time": 14,
+    "rating": 4.2
+  },
+  {
+    "id": "D106",
+    "name": "Truffle Fettuccine",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Fettuccine", "Truffle Cream Sauce", "Mushrooms", "Parmesan", "Parsley"],
+    "price": 10.78,
+    "preparation_time": 32,
+    "rating": 4.8
+  },
+  {
+    "id": "D107",
+    "name": "Creamy Lasagna",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Lasagna Sheets", "Roasted Vegetable Sauce", "Ricotta", "Mozzarella", "Basil"],
+    "price": 14.82,
+    "preparation_time": 33,
+    "rating": 4.4
+  },
+  {
+    "id": "D108",
+    "name": "Rustic Risotto",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Arborio Rice", "Butternut Squash", "Sage", "Parmesan", "Butter", "Nutmeg"],
+    "price": 17.44,
+    "preparation_time": 33,
+    "rating": 4.5
+  },
+  {
+    "id": "D109",
+    "name": "Rustic Carbonara",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Rigatoni", "Guanciale", "Egg Yolk", "Pecorino", "Black Pepper"],
+    "price": 15.06,
+    "preparation_time": 33,
+    "rating": 4.7
+  },
+  {
+    "id": "D110",
+    "name": "Wood-Fired Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Neapolitan Dough", "San Marzano Tomatoes", "Fior di Latte", "Basil", "Olive Oil"],
+    "price": 21.17,
+    "preparation_time": 20,
+    "rating": 4.9
+  },
+  {
+    "id": "D111",
+    "name": "Loaded Ribs",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Pork Spare Ribs", "Sweet BBQ Sauce", "Loaded Potato Skin", "Coleslaw"],
+    "price": 23.69,
+    "preparation_time": 24,
+    "rating": 4.8
+  },
+  {
+    "id": "D112",
+    "name": "Smoked Steak",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Smoked Brisket", "BBQ Sauce", "White Bread", "Pickles", "Onions"],
+    "price": 13.28,
+    "preparation_time": 22,
+    "rating": 4.6
+  },
+  {
+    "id": "D113",
+    "name": "Classic Steak",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["T-Bone Steak", "Herb Butter", "Roasted Potatoes", "Green Beans"],
+    "price": 10.05,
+    "preparation_time": 30,
+    "rating": 4.7
+  },
+  {
+    "id": "D114",
+    "name": "Classic Wings",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Chicken Wings", "Buffalo Sauce", "Blue Cheese Dip", "Celery Sticks"],
+    "price": 19.82,
+    "preparation_time": 30,
+    "rating": 4.5
+  },
+  {
+    "id": "D115",
+    "name": "Smoked Hot Dog",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Bratwurst", "Pretzel Bun", "Beer Cheese", "Caramelized Onions", "Mustard"],
+    "price": 23.57,
+    "preparation_time": 23,
+    "rating": 4.3
+  },
+  {
+    "id": "D116",
+    "name": "Street-Style Bowl",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Brown Rice", "Black Beans", "Grilled Corn", "Salsa Fresca", "Cotija", "Lime"],
+    "price": 13.22,
+    "preparation_time": 12,
+    "rating": 4.2
+  },
+  {
+    "id": "D117",
+    "name": "Grande Nachos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Chips", "Ground Beef", "Cheese Sauce", "Sour Cream", "Guacamole", "Jalapenos"],
+    "price": 18.52,
+    "preparation_time": 19,
+    "rating": 4.6
+  },
+  {
+    "id": "D118",
+    "name": "Zesty Nachos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Blue Corn Chips", "Black Beans", "Jack Cheese", "Mango Salsa", "Jalapeno"],
+    "price": 21.32,
+    "preparation_time": 17,
+    "rating": 4.4
+  },
+  {
+    "id": "D119",
+    "name": "Zesty Enchiladas",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Corn Tortillas", "Shrimp", "Creamy Poblano Sauce", "Cheese", "Cilantro"],
+    "price": 23.23,
+    "preparation_time": 18,
+    "rating": 4.5
+  },
+  {
+    "id": "D120",
+    "name": "Fiesta Tacos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Taco Shells", "Spicy Lentil Walnut Meat", "Slaw", "Lime Crema", "Salsa"],
+    "price": 12.56,
+    "preparation_time": 12,
+    "rating": 4.2
+  },
+  {
+    "id": "D121",
+    "name": "Power Avocado Toast",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Sweet Potato Toast", "Avocado", "Tahini", "Sesame Seeds", "Cucumber"],
+    "price": 22.13,
+    "preparation_time": 11,
+    "rating": 4.3
+  },
+  {
+    "id": "D122",
+    "name": "Detox Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Quinoa", "Arugula", "Grapefruit", "Avocado", "Fennel", "Citrus Dressing"],
+    "price": 21.71,
+    "preparation_time": 10,
+    "rating": 4.1
+  },
+  {
+    "id": "D123",
+    "name": "Detox Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Baby Kale", "Lemon Garlic Dressing", "Radish", "Cucumber", "Hemp Hearts"],
+    "price": 14.81,
+    "preparation_time": 13,
+    "rating": 4.0
+  },
+  {
+    "id": "D124",
+    "name": "Green Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Lacinato Kale", "Caesar Dressing (Vegan)", "Chickpea Croutons", "Capers"],
+    "price": 14.27,
+    "preparation_time": 5,
+    "rating": 4.4
+  },
+  {
+    "id": "D125",
+    "name": "Power Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Barley", "Roasted Vegetables", "Tofu", "Pesto", "Spinach"],
+    "price": 10.91,
+    "preparation_time": 5,
+    "rating": 4.3
+  },
+  {
+    "id": "D126",
+    "name": "Hand-rolled Ramen",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Hand-Pulled Noodles", "Beef Broth", "Braised Beef", "Bok Choy", "Chili Oil"],
+    "price": 17.41,
+    "preparation_time": 17,
+    "rating": 4.7
+  },
+  {
+    "id": "D127",
+    "name": "Crispy Udon",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Stir Fried Udon", "Soy Sauce", "Cabbage", "Pork Belly", "Benishoga", "Bonito"],
+    "price": 18.0,
+    "preparation_time": 12,
+    "rating": 4.6
+  },
+  {
+    "id": "D128",
+    "name": "Umami Bento Box",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Chicken Katsu", "Rice", "Cabbage Salad", "Tonkatsu Sauce", "Orange Slice"],
+    "price": 10.85,
+    "preparation_time": 10,
+    "rating": 4.4
+  },
+  {
+    "id": "D129",
+    "name": "Umami Sushi Roll",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Sushi Rice", "Nori", "Eel", "Cucumber", "Eel Sauce", "Sesame"],
+    "price": 11.34,
+    "preparation_time": 20,
+    "rating": 4.8
+  },
+  {
+    "id": "D130",
+    "name": "Hand-rolled Udon",
+    "tags": ["raw", "seafood", "traditional", "japanese"],
+    "ingredients": ["Udon Noodles", "Curry Broth", "Beef", "Onion", "Carrot", "Scallion"],
+    "price": 20.82,
+    "preparation_time": 20,
+    "rating": 4.2
+  },
+  {
+    "id": "D131",
+    "name": "Rustic Lasagna",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Pasta", "Sausage Ragu", "Ricotta", "Mozzarella", "Parsley"],
+    "price": 22.83,
+    "preparation_time": 31,
+    "rating": 4.6
+  },
+  {
+    "id": "D132",
+    "name": "Rustic Margherita Pizza",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Whole Wheat Crust", "Chunky Tomato Sauce", "Mozzarella", "Basil", "Garlic"],
+    "price": 19.17,
+    "preparation_time": 22,
+    "rating": 4.3
+  },
+  {
+    "id": "D133",
+    "name": "Cheesy Carbonara",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Spaghetti", "Cream Sauce", "Bacon", "Parmesan", "Black Pepper"],
+    "price": 18.66,
+    "preparation_time": 30,
+    "rating": 4.4
+  },
+  {
+    "id": "D134",
+    "name": "Creamy Gnocchi",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Gnocchi", "Gorgonzola Sauce", "Spinach", "Walnuts", "Parmesan"],
+    "price": 23.89,
+    "preparation_time": 21,
+    "rating": 4.7
+  },
+  {
+    "id": "D135",
+    "name": "Truffle Risotto",
+    "tags": ["vegetarian-option", "contains-gluten", "comfort-food", "italian"],
+    "ingredients": ["Risotto Rice", "Truffle Paste", "Parmesan", "Butter", "White Wine", "Chives"],
+    "price": 14.31,
+    "preparation_time": 22,
+    "rating": 4.8
+  },
+  {
+    "id": "D136",
+    "name": "Classic Steak",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Filet Mignon", "Red Wine Reduction", "Mashed Potato", "Glazed Carrots"],
+    "price": 20.59,
+    "preparation_time": 26,
+    "rating": 4.9
+  },
+  {
+    "id": "D137",
+    "name": "Smoked Mac & Cheese",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Cavatappi", "Smoked Gouda Sauce", "Bacon", "Scallions"],
+    "price": 13.26,
+    "preparation_time": 28,
+    "rating": 4.5
+  },
+  {
+    "id": "D138",
+    "name": "Fried Hot Dog",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Corn Dog Batter", "Hot Dog", "Mustard", "Ketchup"],
+    "price": 22.19,
+    "preparation_time": 26,
+    "rating": 4.0
+  },
+  {
+    "id": "D139",
+    "name": "Double Steak",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Two Beef Patties", "Steak Sauce", "Swiss Cheese", "Mushrooms", "Bun"],
+    "price": 15.2,
+    "preparation_time": 25,
+    "rating": 4.4
+  },
+  {
+    "id": "D140",
+    "name": "Texas Wings",
+    "tags": ["meaty", "heavy", "popular", "american"],
+    "ingredients": ["Chicken Wings", "Honey BBQ Sauce", "Ranch Dip", "Carrot Sticks"],
+    "price": 12.77,
+    "preparation_time": 27,
+    "rating": 4.6
+  },
+  {
+    "id": "D141",
+    "name": "Spicy Quesadilla",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Tortilla", "Pepper Jack", "Jalapenos", "Salsa", "Guacamole"],
+    "price": 19.92,
+    "preparation_time": 17,
+    "rating": 4.2
+  },
+  {
+    "id": "D142",
+    "name": "Spicy Nachos",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Tortilla Chips", "Spicy Cheese Sauce", "Ground Beef", "Jalapenos", "Salsa"],
+    "price": 15.59,
+    "preparation_time": 25,
+    "rating": 4.4
+  },
+  {
+    "id": "D143",
+    "name": "Fiesta Quesadilla",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Flour Tortilla", "Fajita Veggies", "Cheese", "Salsa", "Sour Cream"],
+    "price": 18.48,
+    "preparation_time": 25,
+    "rating": 4.3
+  },
+  {
+    "id": "D144",
+    "name": "Zesty Quesadilla",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Tortilla", "Cheese", "Black Beans", "Corn", "Cilantro Lime Sauce"],
+    "price": 24.1,
+    "preparation_time": 17,
+    "rating": 4.2
+  },
+  {
+    "id": "D145",
+    "name": "Spicy Quesadilla",
+    "tags": ["spicy", "shareable", "zesty", "mexican"],
+    "ingredients": ["Tortilla", "Chorizo", "Manchego", "Salsa Roja", "Escabeche"],
+    "price": 19.63,
+    "preparation_time": 20,
+    "rating": 4.5
+  },
+  {
+    "id": "D146",
+    "name": "Quinoa Grain Bowl",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Quinoa", "Edamame", "Carrot", "Cabbage", "Peanut Dressing"],
+    "price": 15.25,
+    "preparation_time": 11,
+    "rating": 4.4
+  },
+  {
+    "id": "D147",
+    "name": "Detox Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Kale", "Lemon Dressing", "Avocado", "Blueberries", "Almonds"],
+    "price": 22.6,
+    "preparation_time": 12,
+    "rating": 4.6
+  },
+  {
+    "id": "D148",
+    "name": "Organic Smoothie",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Strawberry", "Banana", "Soy Milk", "Agave"],
+    "price": 16.79,
+    "preparation_time": 5,
+    "rating": 4.2
+  },
+  {
+    "id": "D149",
+    "name": "Quinoa Kale Salad",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Quinoa", "Kale", "Roasted Red Pepper", "Olives", "Feta (Vegan)", "Vinaigrette"],
+    "price": 10.38,
+    "preparation_time": 6,
+    "rating": 4.3
+  },
+  {
+    "id": "D150",
+    "name": "Power Wrap",
+    "tags": ["vegan", "healthy", "gluten-free"],
+    "ingredients": ["Whole Grain Wrap", "Lentil Salad", "Greens", "Tahini"],
+    "price": 18.74,
+    "preparation_time": 14,
+    "rating": 4.1
+  }
+]

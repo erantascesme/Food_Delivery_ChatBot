@@ -1,0 +1,212 @@
+[
+    {
+        "id": "DEL001",
+        "latitude": 40.754172,
+        "longitude": -73.971984,
+        "is_available": true,
+        "speed_ranking": 3
+    },
+    {
+        "id": "DEL002",
+        "latitude": 40.749639,
+        "longitude": -73.971556,
+        "is_available": true,
+        "speed_ranking": 5
+    },
+    {
+        "id": "DEL003",
+        "latitude": 40.736667,
+        "longitude": -73.966528,
+        "is_available": false,
+        "speed_ranking": 2
+    },
+    {
+        "id": "DEL004",
+        "latitude": 40.744984,
+        "longitude": -73.960593,
+        "is_available": true,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL005",
+        "latitude": 40.745005,
+        "longitude": -73.972071,
+        "is_available": true,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL006",
+        "latitude": 40.72488,
+        "longitude": -73.996325,
+        "is_available": true,
+        "speed_ranking": 1
+    },
+    {
+        "id": "DEL007",
+        "latitude": 40.720953,
+        "longitude": -73.962042,
+        "is_available": true,
+        "speed_ranking": 1
+    },
+    {
+        "id": "DEL008",
+        "latitude": 40.746806,
+        "longitude": -73.994506,
+        "is_available": false,
+        "speed_ranking": 2
+    },
+    {
+        "id": "DEL009",
+        "latitude": 40.73619,
+        "longitude": -73.982967,
+        "is_available": true,
+        "speed_ranking": 5
+    },
+    {
+        "id": "DEL010",
+        "latitude": 40.735241,
+        "longitude": -73.993128,
+        "is_available": false,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL011",
+        "latitude": 40.740295,
+        "longitude": -73.986583,
+        "is_available": false,
+        "speed_ranking": 5
+    },
+    {
+        "id": "DEL012",
+        "latitude": 40.733369,
+        "longitude": -73.99606,
+        "is_available": true,
+        "speed_ranking": 1
+    },
+    {
+        "id": "DEL013",
+        "latitude": 40.758701,
+        "longitude": -73.970714,
+        "is_available": true,
+        "speed_ranking": 1
+    },
+    {
+        "id": "DEL014",
+        "latitude": 40.732791,
+        "longitude": -73.967078,
+        "is_available": true,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL015",
+        "latitude": 40.74469,
+        "longitude": -73.968733,
+        "is_available": true,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL016",
+        "latitude": 40.737395,
+        "longitude": -73.996806,
+        "is_available": false,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL017",
+        "latitude": 40.72899,
+        "longitude": -73.979558,
+        "is_available": true,
+        "speed_ranking": 3
+    },
+    {
+        "id": "DEL018",
+        "latitude": 40.727369,
+        "longitude": -73.992644,
+        "is_available": false,
+        "speed_ranking": 5
+    },
+    {
+        "id": "DEL019",
+        "latitude": 40.721297,
+        "longitude": -73.977136,
+        "is_available": true,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL020",
+        "latitude": 40.72152,
+        "longitude": -73.971516,
+        "is_available": true,
+        "speed_ranking": 3
+    },
+    {
+        "id": "DEL021",
+        "latitude": 40.736513,
+        "longitude": -73.990629,
+        "is_available": true,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL022",
+        "latitude": 40.721539,
+        "longitude": -73.99164,
+        "is_available": true,
+        "speed_ranking": 5
+    },
+    {
+        "id": "DEL023",
+        "latitude": 40.742254,
+        "longitude": -73.969408,
+        "is_available": true,
+        "speed_ranking": 1
+    },
+    {
+        "id": "DEL024",
+        "latitude": 40.757195,
+        "longitude": -73.97649,
+        "is_available": true,
+        "speed_ranking": 1
+    },
+    {
+        "id": "DEL025",
+        "latitude": 40.758645,
+        "longitude": -73.998469,
+        "is_available": true,
+        "speed_ranking": 3
+    },
+    {
+        "id": "DEL026",
+        "latitude": 40.747606,
+        "longitude": -73.984298,
+        "is_available": false,
+        "speed_ranking": 4
+    },
+    {
+        "id": "DEL027",
+        "latitude": 40.745171,
+        "longitude": -73.962276,
+        "is_available": false,
+        "speed_ranking": 5
+    },
+    {
+        "id": "DEL028",
+        "latitude": 40.732391,
+        "longitude": -73.974382,
+        "is_available": false,
+        "speed_ranking": 2
+    },
+    {
+        "id": "DEL029",
+        "latitude": 40.731578,
+        "longitude": -73.975335,
+        "is_available": false,
+        "speed_ranking": 5
+    },
+    {
+        "id": "DEL030",
+        "latitude": 40.749488,
+        "longitude": -73.960256,
+        "is_available": true,
+        "speed_ranking": 3
+    }
+]

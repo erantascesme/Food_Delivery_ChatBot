@@ -1,0 +1,57 @@
+[
+  {
+    "id": "C001",
+    "name": "Alice Johnson",
+    "city": "New York",
+    "street": "5th Avenue",
+    "house_number": "102",
+    "latitude": 40.749000,
+    "longitude": -73.986000,
+    "previous_orders_ids": ["O101"],
+    "phone_number": "+1-555-0101"
+  },
+  {
+    "id": "C002",
+    "name": "Bob Smith",
+    "city": "New York",
+    "street": "Broadway",
+    "house_number": "440",
+    "latitude": 40.751000,
+    "longitude": -73.990000,
+    "previous_orders_ids": ["O102", "O105"],
+    "phone_number": "+1-555-0102"
+  },
+  {
+    "id": "C003",
+    "name": "Charlie Davis",
+    "city": "New York",
+    "street": "W 34th St",
+    "house_number": "20",
+    "latitude": 40.748000,
+    "longitude": -73.984000,
+    "previous_orders_ids": ["O103"],
+    "phone_number": "+1-555-0103"
+  },
+  {
+    "id": "C004",
+    "name": "Diana Prince",
+    "city": "New York",
+    "street": "Lexington Ave",
+    "house_number": "350",
+    "latitude": 40.750000,
+    "longitude": -73.978000,
+    "previous_orders_ids": [],
+    "phone_number": "+1-555-0104"
+  },
+  {
+    "id": "C005",
+    "name": "Ethan Hunt",
+    "city": "New York",
+    "street": "Park Ave",
+    "house_number": "89",
+    "latitude": 40.744000,
+    "longitude": -73.981000,
+    "previous_orders_ids": ["O104"],
+    "phone_number": "+1-555-0105"
+  }
+]

@@ -1,0 +1,83 @@
+{
+    "adventurousness": "medium",
+    "allergies": [
+        "Nuts"
+    ],
+    "avoid_cuisines": [],
+    "avoid_flavors": [],
+    "avoid_proteins": [
+        "Beef",
+        "Chicken",
+        "Shrimp",
+        "Prosciutto",
+        "Tuna",
+        "Salmon",
+        "Pork"
+    ],
+    "budget": {
+        "max": 70,
+        "currency": "$"
+    },
+    "character_summary": "A health-conscious vegetarian focused on low-calorie, plant-based meals. They have a strong preference for noodles, soups, and pizza, but must strictly avoid nuts and onions. They appreciate bold, salty, and spicy flavors and maintain a fitness-oriented, 'shape'-focused diet.",
+    "customization_preference": "some",
+    "delivery_preference": "either",
+    "diet": [
+        "Vegetarian",
+        "Shape"
+    ],
+    "dietary_restrictions": [
+        "Low calorie",
+        "Vegetarian",
+        "High protein"
+    ],
+    "disliked_ingredients": [],
+    "favorite_cuisines": [
+        "Healthy",
+        "Italian",
+        "Japanese",
+        "American",
+        "Mexican"
+    ],
+    "hated_ingredients": [
+        "Onions"
+    ],
+    "intolerances": [],
+    "liked_ingredients": [
+        "Chickpeas",
+        "Quinoa",
+        "Seeds",
+        "Salt",
+        "Pepper",
+        "Cheese",
+        "Tofu"
+    ],
+    "nutrition_goals": [
+        "Low calorie",
+        "High protein"
+    ],
+    "occasion": "",
+    "portion_preference": "",
+    "preferred_dish_types": [
+        "Noodles",
+        "Soup",
+        "Bowls",
+        "Pizza"
+    ],
+    "preferred_flavors": [
+        "Salty",
+        "Spicy"
+    ],
+    "preferred_price_range": "Unknown",
+    "preferred_proteins": [
+        "Tofu",
+        "Chickpeas"
+    ],
+    "religious_restrictions": [],
+    "spice_level": "medium",
+    "spice_tolerance": "High",
+    "texture_aversions": [],
+    "time_limit_minutes": null,
+    "fated_ingredients": [
+        "Onions"
+    ]
+}

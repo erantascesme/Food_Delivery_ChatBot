@@ -1,0 +1,44 @@
+{
+    "diet": [],
+    "allergies": [
+        "nuts"
+    ],
+    "intolerances": [],
+    "religious_restrictions": [],
+    "hated_ingredients": [],
+    "texture_aversions": [],
+    "spice_level": "medium",
+    "preferred_flavors": [
+        "rich",
+        "savory",
+        "smoky"
+    ],
+    "avoid_flavors": [],
+    "nutrition_goals": [
+        "high protein"
+    ],
+    "favorite_cuisines": [
+        "American"
+    ],
+    "avoid_cuisines": [],
+    "preferred_dish_types": [
+        "comfort food",
+        "hearty meals",
+        "burgers"
+    ],
+    "preferred_proteins": [
+        "beef"
+    ],
+    "avoid_proteins": [],
+    "occasion": "cheat day",
+    "time_limit_minutes": 30,
+    "budget": {
+        "min": 35,
+        "max": null,
+        "currency": "$"
+    },
+    "customization_preference": "some",
+    "portion_preference": "large",
+    "adventurousness": "medium",
+    "character_summary": "A fitness-conscious individual with a nut allergy, currently enjoying an indulgent cheat day. They seek high-protein American comfort food, specifically burgers and smoky meats, valuing savory flavor profiles and large portions."
+}

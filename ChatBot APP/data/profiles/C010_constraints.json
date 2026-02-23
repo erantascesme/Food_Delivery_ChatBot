@@ -1,0 +1,37 @@
+{
+    "adventurousness": "medium",
+    "allergies": [
+        "Nuts"
+    ],
+    "avoid_cuisines": [],
+    "avoid_flavors": [],
+    "avoid_proteins": [],
+    "budget": {
+        "max": 102,
+        "currency": "$"
+    },
+    "character_summary": "New customer.",
+    "customization_preference": "some",
+    "diet": [],
+    "favorite_cuisines": [],
+    "hated_ingredients": [
+        "Onions",
+        "papers"
+    ],
+    "intolerances": [],
+    "nutrition_goals": [
+        "High protein",
+        "Low calorie"
+    ],
+    "occasion": "",
+    "portion_preference": "",
+    "preferred_dish_types": [],
+    "preferred_flavors": [],
+    "preferred_proteins": [],
+    "religious_restrictions": [],
+    "spice_level": "medium",
+    "texture_aversions": [
+        "hate corns"
+    ],
+    "time_limit_minutes": null
+}

@@ -1,0 +1,58 @@
+{
+    "dietary_restrictions": [],
+    "allergies": [
+        "Nuts"
+    ],
+    "liked_ingredients": [
+        "Ramen",
+        "Pizza",
+        "Mozzarella",
+        "Garlic",
+        "Beef Patty",
+        "Cheddar",
+        "Bacon"
+    ],
+    "disliked_ingredients": [],
+    "spice_tolerance": "High",
+    "preferred_price_range": "Moderate",
+    "favorite_cuisines": [
+        "Japanese",
+        "Asian",
+        "Italian",
+        "American"
+    ],
+    "character_summary": "Enjoys spicy Asian cuisine, Italian comfort food, and hearty American burgers. Prefers bold flavors like garlic and high heat. Has a strict nut allergy. Values high restaurant ratings (4.5+) and efficient delivery. Recently favored garlic-heavy pizza over standard BBQ options.",
+    "diet": [],
+    "intolerances": [],
+    "religious_restrictions": [],
+    "hated_ingredients": [],
+    "texture_aversions": [],
+    "spice_level": "High",
+    "preferred_flavors": [
+        "Spicy",
+        "Garlic",
+        "Savory"
+    ],
+    "avoid_flavors": [],
+    "nutrition_goals": [],
+    "avoid_cuisines": [],
+    "preferred_dish_types": [
+        "Ramen",
+        "Burgers",
+        "Pizza"
+    ],
+    "preferred_proteins": [
+        "Beef",
+        "Bacon"
+    ],
+    "avoid_proteins": [],
+    "occasion": "",
+    "time_limit_minutes": null,
+    "budget": {
+        "max": 72,
+        "currency": "$"
+    },
+    "customization_preference": "some",
+    "portion_preference": "",
+    "adventurousness": "medium"
+}
