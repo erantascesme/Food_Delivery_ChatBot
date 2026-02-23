@@ -2,7 +2,7 @@
 
 This repository contains the software and analytical tools developed for a research study exploring human-AI interaction, specifically focusing on user trust, explainability, and decision-making in Conversational Recommender Systems (CRS).
 
-The project is divided into two main components: a fully functional simulated food delivery AI and a statistical analysis suite for evaluating user feedback.
+The project is divided into two main components: a fully functional simulated food delivery chatbot and a statistical analysis suite for evaluating user trust.
 
 ## Repository Structure
 
