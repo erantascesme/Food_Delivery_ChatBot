@@ -1,6 +1,8 @@
-# Conversational AI Recommender System & Trust Analysis
+# Food-Delivery LLM Chatbot: A Human-AI Interaction Study
 
-This repository contains the software and analytical tools developed for a research study exploring human-AI interaction, specifically focusing on user trust, explainability, and decision-making in Conversational Recommender Systems (CRS).
+Food-delivery platforms often overwhelm users with choices, leading to cognitive fatigue and decision overload. While conversational Large Language Models (LLMs) offer a promising solution through personalized, natural-language recommendations, the inherent opacity of AI introduces a critical Human-AI Interaction challenge: user trust.
+
+This repository contains the software and analytical tools developed for a research study exploring how Explainable AI (XAI) principles can bridge this gap. Specifically, the project investigates how transparent, preference-aligned explanations in Conversational Recommender Systems (CRS) help users anticipate system behavior, calibrate their trust, and ultimately influence their intention to adopt the technology.
 
 The project is divided into two main components: a fully functional simulated food delivery AI and a statistical analysis suite for evaluating user feedback.
 
@@ -16,7 +18,7 @@ This folder contains the core web application: an intelligent, conversational fo
 
 ### 2. `Survey Results`
 
-This folder contains the data analysis pipeline used to evaluate the human-AI interaction study. It includes scripts to perform statistical analysis on the surveys filled out by participants after interacting with the chatbot. The analysis measures key behavioral economics metrics, such as user trust, satisfaction, and the impact of the AI's explainability on their final choices.
+This folder contains the data analysis pipeline used to evaluate the human-AI interaction study ($N=26$). The suite includes scripts to perform statistical analyses - such as internal consistency reliability (Cronbach's $\alpha$) and Ordinary Least Squares (OLS) regression on user survey data collected post-interaction. The code evaluates three primary research questions: how perceived explanation quality predicts experienced trust, how trust drives future usage intention, and whether baseline user characteristics moderate these effects. Additionally, it analyzes specific eXplainable AI (XAI) indicators, such as predictability and safety. The resulting statistical models demonstrate that transparent, high-quality explanations are a core mechanism for building user trust, which in turn strongly predicts a user's willingness to adopt the conversational recommender system.
 
 ---
 
@@ -37,4 +39,4 @@ Here is a look at the Chatbot interface in action:
 * **Eran Tascesme**, Tel Aviv University, https://www.linkedin.com/in/erantascesme/
 
 
-*Developed for academic research in Human-AI Interaction and Behavioral Economics.*
+*Developed for academic research in Human-AI Interaction.*
