@@ -1,4 +1,4 @@
-# Conversational AI Recommender System & Trust Analysis
+# Food-Delivery LLM Chatbot: A Human-AI Interaction Study
 
 This repository contains the software and analytical tools developed for a research study exploring human-AI interaction, specifically focusing on user trust, explainability, and decision-making in Conversational Recommender Systems (CRS).
 
