@@ -27,7 +27,7 @@ Here is a look at the Chatbot interface in action:
 
 <img src="https://github.com/user-attachments/assets/d3afe04c-9b25-4ac7-bdd4-33a3e7475db4" alt="Main Chat Interface" width="600">
 
-<img src="https://github.com/user-attachments/assets/a057c273-eebb-4cd9-b7e4-b467ef98a0c6" alt="Ordering Flow" height="300" width="600">
+<img src="https://github.com/user-attachments/assets/a057c273-eebb-4cd9-b7e4-b467ef98a0c6" alt="Ordering Flow" height="300" width="300">
 
 
 ---
